@@ -1,7 +1,7 @@
 body{
     margin: 0;
     color: white;
-    font-size: 20%;
+    
 }
 
 .aaa{
@@ -14,18 +14,20 @@ body{
     background-color: #429E31;
     color: white;
     transform:skewX(-30deg);
-    width: 60%;
-    margin-left: 20px;
+    width: 80%;
+    margin-left: -30px;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
 }
 .title-bg:hover{
     background-color: #2f7423;
 }
 .title-bg h1{
     transform:skewX(30deg);
+    font-size: 248.6%;
 }
 .body{
+    font-size: 20%;
     margin: auto;
     text-align: center;
     background-color: #2f7423;
