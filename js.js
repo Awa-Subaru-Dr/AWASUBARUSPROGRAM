@@ -58,7 +58,7 @@ function 安和昴函数(n){
         case 0: return "486-486";
         case 1: return "486/486";
         case 3: return "(486+486+486)/486";
-        case 12: return "4+8+6";
+        case 18: return "4+8+6";
         case 26: return "4*8-6";
         case 38: return "4*8+6";
         case 2: return "4-8+6";
@@ -83,7 +83,7 @@ function 安和昴函数(n){
 
         if(n%26==0)return "("+安和昴函数(26)+")*("+安和昴函数(n/26)+")";
 
-        if(n%12==0)return "("+安和昴函数(12)+")*("+安和昴函数(n/12)+")";
+        if(n%18==0)return "("+安和昴函数(18)+")*("+安和昴函数(n/18)+")";
 
         if(n%6==0)return "("+安和昴函数(6)+")*("+安和昴函数(n/6)+")";
 
